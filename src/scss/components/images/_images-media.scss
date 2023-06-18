@@ -1,0 +1,318 @@
+
+@media(max-width: 1400px) {
+    .images{
+        &__wrapper {
+            width: 1100px;
+        }
+    }
+}
+@media(max-width: 1200px) {
+    .images {
+        padding-left: 0px;
+        &__box {
+            margin-left: 0px;
+        }
+        &__wrapper {
+            width: 950px;
+            &_box {
+                width: 960px;
+            }
+            &_presale {
+                margin-right: 24px;
+                height: 340px;
+            }
+            &_glasser {
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+            }
+            &_cute {
+                padding: 0px 5px 1px 0px;
+            }
+        }
+        &__picture {
+            &_sale {
+                img {
+                    width: 450px;
+                }
+            }
+            &_summer {
+                img {
+                    width: 450px;
+                }
+            }
+            &_smile {
+                img {
+                    width: 235px;
+                    height: 333px;
+                }
+            }
+            &_violet {
+                img {
+                    width: 235px;
+                    height: 333px;
+                }
+            }
+        }
+        &__picture {
+            &_pink {
+                img {
+                    width: 482px;
+                    height: 150px;
+                }
+            }
+            &_candy {
+                &-hood {
+                    width: 482px;
+                    height: 143px;
+                }
+                &-text {
+                    font-size: 21px;
+                }
+            }
+            &_wineglasses {
+                img {
+                    width: 208px;
+                    height: 312px;
+                }
+            }
+            &_sunglasses {
+                img {
+                    width: 208px;
+                    height: 312px;
+                }
+            }
+        }
+        &__title {
+            &_paragraph {
+                font-size: 13px;
+            }
+            &_text {
+                font-size: 25px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .images {
+        padding: 45px 0px 0px 7px;
+        &__wrapper {
+            width: 735px;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            &_girls {
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                width: 0px;
+            }
+            &_box {
+                position: relative;
+                display: block;
+                width: 700px;
+            }
+            &_glasses {
+                position: absolute;
+                bottom: 89%;
+            }
+            &_presale {
+                margin-right: 17px;
+            }
+            &_cute {
+                padding: 14px 5px 1px 116px;
+            }
+        }
+        &__picture {
+            &_smile {
+               margin-bottom: 16px;
+            }
+            &_wineglasses {
+                margin-right: 6px;
+                img {
+                    width: 216px;
+                    height: 330px
+                }
+            }
+            &_sunglasses {
+                img {
+                    width: 216px;
+                    height: 330px
+                }
+            }
+            &_pink {
+                img {
+                    width: 500px;
+                }
+            }
+            &_candy {
+                img {
+                    width: 506px;
+                }
+                &-title {
+                    padding: 46px 40px 30px 22px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 769px) {
+    .images {
+        &__wrapper {
+            width: 500px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            &_glasses {
+                bottom: 55%;
+            }
+            &_box {
+                width: 500px;
+            }
+            &_cute {
+                padding-left: 6px;
+            }
+        }
+        &__picture {
+            &_sale {
+                img {
+                    width: 330px;
+                }
+            }
+            &_summer {
+                img {
+                    width: 330px;
+                }
+            }
+            &_smile {
+                img {
+                    width: 164px;
+                    height: 250px;
+                }
+                }
+            &_violet {
+                height: 219px;
+                img {
+                    width: 164px;
+                    height: 225px;
+                }
+            }
+            &_wineglasses {
+                img {
+                    width: 163px;
+                    height: 220px;
+                }
+            }
+            &_sunglasses {
+                width: 200px;
+                img {
+                    width: 155px;
+                    height: 223px
+                }
+            }
+            &_pink {
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 577px) {
+    .images {
+        &__wrapper {
+            width: 300px;
+            position: relative;
+            &_box {
+                width: 300px;
+            }
+            &_glasses {
+                width: 300px;
+                position: absolute;
+                bottom: -180%;
+            }
+            &_cute {
+                width: 300px;
+            }
+            &_girls {
+                flex-wrap: nowrap;
+                position: absolute;
+                right: 97%;
+                top: 73%;
+            }
+           
+        }
+        &__picture {
+            &_sale {
+                img {
+                    width: 306px;
+                }
+            }
+            &_summer {
+                img {
+                    width: 306px;
+                }
+            }
+            &_smile {
+                img {
+                    width: 133px;
+                    height: 207px;
+                }
+            }
+            &_violet {
+                img {
+                    width: 141px;
+                    height: 206px;
+                }
+            }
+            &_wineglasses {
+                img {
+                    width: 146px;
+                    height: 200px;
+                }
+            }
+            &_sunglasses {
+                img {
+                    width: 139px;
+                    height: 201px
+                }
+            }
+            &_pink {
+                position: relative;
+                margin-bottom: 20px;
+                top: 120px;
+                left: -5px;
+                img {
+                    width: 303px;
+                    height: 130px;
+                }
+            }
+            &_candy {
+                top: 127px;
+                img {
+                    width: 300px;
+                }
+                &-hood {
+                    width: 310px;
+                    height: 133px;
+                }
+                &-paragraph {
+                    font-size: 9px;
+                }
+                &-text {
+                    font-size: 15px;
+                }
+            }
+        }
+        &__title {
+            &_text {
+                font-size: 19px;
+            }
+            &_paragraph {
+                font-size: 9px;
+            }
+        }
+    }
+}

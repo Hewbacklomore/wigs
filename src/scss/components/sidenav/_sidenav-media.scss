@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+    .sidenav {
+        &__wrapper {
+            width: 350px;
+            left: -4%;
+            top: 60px;
+            background: rgb(139 194 224 / 30%);        
+        }
+    }
+}
+@media (max-width: 769px) {
+    .sidenav {
+        &__wrapper {
+            left: -9%;
+        }
+    }
+}
+@media (max-width: 579px) {
+    .sidenav {
+        &__wrapper {
+            width: 275px;
+            left: -1%;
+        }
+    }
+}

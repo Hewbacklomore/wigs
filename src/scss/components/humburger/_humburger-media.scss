@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+    .humburger {
+        &__wrapper {
+            width: 26px;
+            top: -52px;
+            right: 2%;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .humburger {
+        &__wrapper {
+            width: 23px;
+            top: -25px;
+        }
+    }
+}
+@media (max-width: 769px) {
+    .humburger {
+        &__wrapper {
+            width: 23px;
+            top: 5px;
+            right: 6%;
+            opacity: 0.7;
+        }
+    }
+}
+@media (max-width: 577px) {
+    .humburger {
+        &__wrapper {
+            width: 17px;
+            top: -23px;
+            opacity: 0.7;
+            right: 2%;
+        }
+    }
+}

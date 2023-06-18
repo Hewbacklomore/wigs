@@ -1,0 +1,141 @@
+.images {
+    padding: 16px 0px 0px 0px;
+    margin-left: 0px;
+    &__box {
+        margin-left: 46px;
+    }
+    &__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        width: 1138px;
+        &_presale {
+            display: block;
+            margin-right: 25px;
+            margin-bottom: 21px;
+        }
+        &_girls {
+            width: 600px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: 14px;
+        }
+        &_glasses {
+            width: 540px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+        }
+        &_cute {
+            width: 540px;
+        }
+        &_box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            width: 1100px;
+        }
+    }
+    &__picture {
+        &_sale {
+            margin-bottom: 27px;
+            img {
+                width: 505px;
+            }
+        }
+        &_summer {
+            img {
+                width: 505px;
+            }
+        }
+        &_violet {
+            img {
+                border-radius: $custom-radius;
+                width: 260px;
+                height: 368px;
+            }
+        }
+        &_wineglasses {
+            margin-right: 15px;
+            img {
+                width: 240px;
+                height: 382px;
+                border-radius: $custom-radius;
+                margin-right: 10px;
+            }
+        }
+        &_sunglasses {
+            width: 240px;
+            height: 380px;
+            img {
+                border-radius: $custom-radius;
+                width: 245px;
+                height: 382px;
+            }
+        }
+        &_candy {
+            position: relative;
+            border-radius: $custom-radius;
+            &-hood {
+                width: 535px;
+                height: 180px;
+                border-radius: $custom-radius;
+                }
+            &-grey {
+                background-color: #c9abab;
+                border-radius: $custom-radius;
+            }
+            &-title {
+                position: absolute;
+                padding: 67px 40px 30px 37px;
+            }
+            &-text {
+                font-size: 26px;
+                color: #FD2E24;
+            }
+            &-paragraph {
+                font-size: 16px;
+            }
+        }
+        &_pink {
+            position: relative;
+            margin-bottom: 20px;
+            img {
+                border-radius: $custom-radius;
+                width: 533px;
+                height: 180px;
+            }
+        }
+        &_smile {
+            margin-right: 15px;
+            img {
+                border-radius: $custom-radius;
+                width: 260px;
+                height: 368px;
+            }
+        }
+    }
+    &__title {
+        position: absolute;
+        padding: 53px 40px 30px 27px;
+        &_paragraph {
+            font-size: 15px;
+            margin-top: 37px;
+        }
+        &_text {
+            position: absolute;
+            color: #001AA2;
+            font-size: 26px;    
+        }
+    }
+}

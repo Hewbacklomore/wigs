@@ -1,0 +1,72 @@
+.header {
+    &__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        width: 1170px;
+        padding: 30px;
+        margin-left: 0px;
+    }
+    &__menu {
+        width: 435px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4px;
+        &_items {
+            list-style-type: none;
+            font-size: $custom-font;
+            float: left;
+            &:last-child {
+               display: block;
+               content: '';
+               margin-right: 50px;
+            }
+        }
+    }
+    &__input {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid rgb(255, 255, 255);
+        float: left;
+        width: 100px;
+        height: 23px;
+        opacity: 20%;
+        background: #f1f1f1;
+    }
+    &__block {
+       position: absolute;
+       left: 16px;
+       width: 80px;
+    }
+    &__form {
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        &_wrapper {
+            width: 170px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            margin-right: 309px;
+            margin-left: 81px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    &__box {
+        position: relative;
+    }
+    &__icons {
+        margin-right: 20px;
+    }
+}

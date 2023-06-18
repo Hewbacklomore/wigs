@@ -1,0 +1,21 @@
+.circle {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    bottom: 50px;
+    margin-left: 16px;
+    &__thing {
+        width: 16px;
+        height: 3px;
+        background-color: black;
+        margin-left: 33px;
+    }
+    &__block {
+        position: absolute;
+        top: 10px;
+        left: 18px;
+    }
+    &__text {
+        font-size: 22px;
+    }
+}
