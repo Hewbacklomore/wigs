@@ -11,8 +11,6 @@ const sideClose = document.querySelector('.sidenav__close');
 humburger.addEventListener('click', () => {
     
     document.createElement('div');
-    /* imagesBlock.classList.add('active__class'); */
-    /* preSale.style.display = 'none'; */
     preSale.classList.add('active__class');
     preSale.classList.remove('images__wrapper_presale')
     sideNav.style.transform = 'translateX(0%)';
@@ -22,7 +20,6 @@ humburger.addEventListener('click', () => {
 sideClose.addEventListener('click', ()=> {
     imagesBlock.classList.remove('active__class');
     preSale.classList.add('images__wrapper_presale')
-    /* preSale.style.display = 'block'; */
     sideNav.style.transform = 'translateX(-100%)';
     imagesBox.style.display = 'block';
 
